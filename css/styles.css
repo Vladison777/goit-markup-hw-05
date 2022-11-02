@@ -383,7 +383,7 @@ img {
     align-items: center;
     justify-content: center;
     color: var(--icon-gray-fill);
-    transition-property: color;
+    transition-property:color,background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -435,7 +435,7 @@ img {
     justify-content: center;
     border-radius: 4px;
     color: #AFB1B8;
-    transition-property: color;
+    transition-property: color, border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -571,7 +571,7 @@ img {
     width: 100%;
     border-radius: 50%;
     color:var(--main-white);
-    transition:250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 .icon-join{
@@ -604,9 +604,7 @@ img {
     Border: none;
     padding: 6px 22px;
     border-radius: 4px;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 
@@ -661,7 +659,7 @@ img {
  .block{
     text-decoration: none;
     display: block;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .block:hover{
